@@ -1,0 +1,9 @@
+
+App\Entity\User:
+
+  user{1..45}:
+    name: '<name()>'
+    email: '<email()>'
+    isActive: true
+    createdAt: '<date_create()>'
+    updatedAt: '<date_create()>'

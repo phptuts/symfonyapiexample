@@ -1,0 +1,15 @@
+
+App\Entity\User:
+  email_test:
+    name: '<name()>'
+    email: 'example@gmail.com'
+    isActive: true
+    createdAt: '<date_create()>'
+    updatedAt: '<date_create()>'
+
+  user{1..23}:
+    name: '<name()>'
+    email: '<email()>'
+    isActive: true
+    createdAt: '<date_create()>'
+    updatedAt: '<date_create()>'
