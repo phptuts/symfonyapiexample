@@ -16,6 +16,12 @@ composer install
 
 2\. Turn on Docker
 
+4\. Run docker and wait about 10 seconds for everything to boot up
+
+```
+docker-compose up -d
+```
+
 3\. Run this sh file
 ```
 sh run-dev.sh
@@ -23,7 +29,9 @@ sh run-dev.sh
 
 ## Pages 
 
-Go to [Docs Page](https://127.0.0.1:8000/api/docs) to see the api.
+Go to [Docs Page](https://127.0.0.1:8000/api/docs) to see the api.  
+The home page does not exist.
+
 
 ## Run Tests
 
